@@ -55,12 +55,17 @@
 ## 🧭 Learning Roadmap
 
 ```mermaid
-graph TD
-  A[JavaScript Mastery] --> B[Advanced React]
-  B --> C[Performance & Architecture]
-  C --> D[Backend Fundamentals]
-  D --> E[System Design]
-  E --> F[Full Stack Engineer]
+graph LR
+  subgraph Frontend
+    A[JavaScript] --> B[React]
+  end
+
+  subgraph Backend
+    C[Node.js] --> D[APIs]
+  end
+
+  B --> C
+
 
 
 
